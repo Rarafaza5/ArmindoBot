@@ -12,5 +12,7 @@ O ArmindoBot também tem outras funções uteis em servidores de amigos pequenos
 
 O ArmindoBot também tem algumas mensagens de RPC engraçadas.
 
+Deves também deves mudar a ultima linha de forma a que fique a token do teu bot
+
 ⚠️Aviso!⚠️
 Ao usar o ArmindoBot estás sobre tua responsabilidade, eu não me responsabiliso por qualquer erro que possa danificar algo, também não me responsabiliso pelas mensagens colocadas no ArmindoBot.
