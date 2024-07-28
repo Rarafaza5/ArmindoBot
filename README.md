@@ -12,4 +12,5 @@ O ArmindoBot é a versão OpenSource do Armindo, um assistente irritante, que ma
 
 O ArmindoBot também tem algumas mensagens de RPC engraçadas.
 
-⚠️ Aviso ⚠️ Ao usar o ArmindoBot estás sobre tua responsabilidade, eu não me responsabiliso por qualquer erro que possa danificar algo, também não me responsabiliso pelas mensagens colocadas no ArmindoBot.
+⚠️Aviso!⚠️
+Ao usar o ArmindoBot estás sobre tua responsabilidade, eu não me responsabiliso por qualquer erro que possa danificar algo, também não me responsabiliso pelas mensagens colocadas no ArmindoBot.
