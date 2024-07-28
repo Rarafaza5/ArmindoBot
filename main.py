@@ -69,7 +69,7 @@ class client(discord.Client):
         print(f"RPC atualizado: {mensagem} | Status: {self.estafetadaglovo} | Ação: {comidadokazio}")
 
     async def delete_old_messages(self):
-        canal_id = '1198249545822376068'  # Substitua pelo ID do canal onde as mensagens devem ser verificadas
+        canal_id = 'Canal das mensagens'  # Substitua pelo ID do canal onde as mensagens devem ser verificadas
         canal = self.get_channel(int(canal_id))
 
         if canal:
@@ -89,9 +89,9 @@ aclient = client()
 tree = app_commands.CommandTree(aclient)
 
 
-@tree.command(guild=discord.Object(id=id_do_servidor), name='ativar_joka', description='Ativa as falas do joka')
+@tree.command(guild=discord.Object(id=id_do_servidor), name='ativar_falas', description='Ativa as falas do armindo')
 async def enviar_ensagens(interaction: discord.Interaction):
-    print("O Modo Joka foi ativo por um Admin")
+    print("O Modo Fala foi ativo por um Admin")
     await aclient.wait_until_ready()
 
     while not aclient.is_closed():
@@ -122,7 +122,7 @@ async def enviar_ensagens(interaction: discord.Interaction):
                         "Se tu forem um espião famoso, és uma porcaria no teu trabalho",
                         "Bater palmas é literalmente baters-te por cena de algo que gostste",
                         "Uma mulher grávida tem a capacidade de prodizir um cérebroque poderá ser mais inteligente e esperto do que o próprio cérebro dela um dia",
-                        "Olha ai a minha conta da nintendo: [htps://nintendo.com\profile\grande_joka203](<https://www.youtube.com/watch?v=dQw4w9WgXcQ>)",
+                        "Olha ai a minha conta da nintendo: [htps://nintendo.com\profile\Armind0_203](<https://www.youtube.com/watch?v=dQw4w9WgXcQ>)",
                        ]
 
             mensagem_aleatoria = random.choice(mensagens)
@@ -132,7 +132,7 @@ async def enviar_ensagens(interaction: discord.Interaction):
             print("A mensagem enviada foi: ", mensagem_aleatoria)
             await asyncio.sleep(random.randint(5000, 12000))
 
-    await interaction.response.send_message("O Modo Joka Foi Ativo", ephemeral=True)
+    await interaction.response.send_message("O Modo fala Foi Ativo", ephemeral=True)
 
 @tree.command(guild=discord.Object(id=id_do_servidor), name='ping', description='Verifica a latência do bot')
 async def ping(interaction: discord.Interaction):
