@@ -4,5 +4,12 @@ O ArmindoBot é a versão OpenSource do Armindo, um assistente irritante, que ma
 - "Acima de mim, só eu mesmo"
 - "Não gosto de bagels"
 - "Juro que de mim ninguem te tira, valiosa como pedra de safira"
-- "A Torre Eiffel, em Paris, é um dos marcos mais conhecidos do mundo. Construída por Gustave Eiffel em 1889 para a Exposição Universal, ela atrai milhões de visitantes todos os anos. Com mais de 300 metros de altura, oferece vistas deslumbrantes da cidade e é um símbolo icônico da França e de seu progresso tecnológico."
 - "Bora jogar mario kart o meu nick na switch é mrArmindo123"
+
+  O ArmindoBot também tem outras funções uteis em servidores de amigos pequenos como:
+  - Processar: Com o comando "/processar {Usuario} {Tempo de Time Out}", o ArmindoBot vai criar uma enquete que se for aceite vai por o Usuario em Time Out
+  - Roleta de Jogos: Com o comando "/addgame {Nome de um Jogo}" ele vai adicionar á roleta o nome do jogo e com o comando "/roleta", o Armindo vai pegar em todos os valores colocados com o /addgame e vai sortear um.
+
+O ArmindoBot também tem algumas mensagens de RPC engraçadas.
+
+⚠️ Aviso ⚠️ Ao usar o ArmindoBot estás sobre tua responsabilidade, eu não me responsabiliso por qualquer erro que possa danificar algo, também não me responsabiliso pelas mensagens colocadas no ArmindoBot.
