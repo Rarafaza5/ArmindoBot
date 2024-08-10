@@ -7,7 +7,7 @@ from discord import app_commands
 import discord
 import datetime
 
-id_do_servidor = 1198249545189040210
+id_do_servidor = 'Coloca aqui o ID do servidor'
 
 #Mensagens RPC
 mensagensrpc = [
@@ -95,7 +95,7 @@ async def enviar_ensagens(interaction: discord.Interaction):
     await aclient.wait_until_ready()
 
     while not aclient.is_closed():
-        canal_id = '1198249545822376068'  # Substitua pelo ID do canal onde você quer enviar as mensagens
+        canal_id = 'Substitua pelo ID do canal onde você quer enviar as mensagens'  # Substitua pelo ID do canal onde você quer enviar as mensagens
         canal = aclient.get_channel(int(canal_id))
 
         if canal:
